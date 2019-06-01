@@ -2,16 +2,18 @@
   <caption>My COA's</caption>
   <thead>
     <tr>
-      <th>id</th>
       <th>Kode COA</th>
       <th>Nama COA</th>
+      <th>Active?</th>
+      <th>Created At</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let coa of coas">
-      <td>{{coa.id}}</td>
       <td>{{coa.kode_coa}}</td>
       <td>{{coa.nama_coa}}</td>
+      <td>{{coa.active}}</td>
+      <td>{{coa.created_date | date}}</td>
     </tr>
   </tbody>
 </table>
