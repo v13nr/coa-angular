@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td>Username</td>
-    <td><input type="text" name="username"></td>
+    <td><input type="text" name="username" [(ngModel)]="username"></td>
   </tr>
   <tr>
     <td>Password</td>
@@ -10,7 +10,7 @@
   </tr>
   <tr>
     <td></td>
-    <td><input type="button" name="bt_login" value="Login Now"></td>
+    <td><input type="button" (click)=handleLogin() name="bt_login" value="Login Now"></td>
   </tr>
 </table>
 
