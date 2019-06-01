@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './angular/welcome/welcome.component';
 import { LoginComponent } from './angular/login/login.component';
 import { ErrorComponent } from './angular/error/error.component';
+import { ListCoasComponent } from './angular/list-coas/list-coas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    ListCoasComponent
   ],
   imports: [
     BrowserModule,
